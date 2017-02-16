@@ -158,7 +158,7 @@ class Actions {
       refs[el.key] = { key: el.key, name: el.key, ...el.props, type: ActionConst.REFRESH,
         base: baseKey, parent: subStateParent };
       if (this[el.key]) {
-        console.log(`Key ${el.key} is already defined!`);
+        //console.log(`Key ${el.key} is already defined!`);
       }
       this[el.key] =
         (props = {}) => {
