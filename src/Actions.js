@@ -167,7 +167,7 @@ class Actions {
         };
     }
     if (this[key]) {
-      console.log(`Key ${key} is already defined!`);
+      //console.log(`Key ${key} is already defined!`);
     }
     this[key] =
       (props = {}) => {
